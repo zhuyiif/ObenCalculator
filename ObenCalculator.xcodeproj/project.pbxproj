@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF9C74D21A4F7F00050014C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9C74C21A4F7F00050014C /* AppDelegate.m */; };
+		BFF9C75021A4F7F00050014C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9C74F21A4F7F00050014C /* ViewController.m */; };
+		BFF9C75321A4F7F00050014C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF9C75121A4F7F00050014C /* Main.storyboard */; };
+		BFF9C75521A4F7F20050014C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF9C75421A4F7F20050014C /* Assets.xcassets */; };
+		BFF9C75821A4F7F20050014C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF9C75621A4F7F20050014C /* LaunchScreen.storyboard */; };
+		BFF9C75B21A4F7F20050014C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9C75A21A4F7F20050014C /* main.m */; };
+		BFF9C76521A4F7F20050014C /* ObenCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9C76421A4F7F20050014C /* ObenCalculatorTests.m */; };
+		BFF9C77021A4F7F20050014C /* ObenCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9C76F21A4F7F20050014C /* ObenCalculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF9C76121A4F7F20050014C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF9C74021A4F7F00050014C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF9C74721A4F7F00050014C;
+			remoteInfo = ObenCalculator;
+		};
+		BFF9C76C21A4F7F20050014C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF9C74021A4F7F00050014C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF9C74721A4F7F00050014C;
+			remoteInfo = ObenCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFF9C74821A4F7F00050014C /* ObenCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObenCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF9C74B21A4F7F00050014C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFF9C74C21A4F7F00050014C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFF9C74E21A4F7F00050014C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFF9C74F21A4F7F00050014C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFF9C75221A4F7F00050014C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF9C75421A4F7F20050014C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF9C75721A4F7F20050014C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF9C75921A4F7F20050014C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF9C75A21A4F7F20050014C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFF9C76021A4F7F20050014C /* ObenCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObenCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF9C76421A4F7F20050014C /* ObenCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObenCalculatorTests.m; sourceTree = "<group>"; };
+		BFF9C76621A4F7F20050014C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF9C76B21A4F7F20050014C /* ObenCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObenCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF9C76F21A4F7F20050014C /* ObenCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObenCalculatorUITests.m; sourceTree = "<group>"; };
+		BFF9C77121A4F7F20050014C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF9C74521A4F7F00050014C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF9C75D21A4F7F20050014C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF9C76821A4F7F20050014C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF9C73F21A4F7F00050014C = {
+			isa = PBXGroup;
+			children = (
+				BFF9C74A21A4F7F00050014C /* ObenCalculator */,
+				BFF9C76321A4F7F20050014C /* ObenCalculatorTests */,
+				BFF9C76E21A4F7F20050014C /* ObenCalculatorUITests */,
+				BFF9C74921A4F7F00050014C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF9C74921A4F7F00050014C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF9C74821A4F7F00050014C /* ObenCalculator.app */,
+				BFF9C76021A4F7F20050014C /* ObenCalculatorTests.xctest */,
+				BFF9C76B21A4F7F20050014C /* ObenCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF9C74A21A4F7F00050014C /* ObenCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				BFF9C74B21A4F7F00050014C /* AppDelegate.h */,
+				BFF9C74C21A4F7F00050014C /* AppDelegate.m */,
+				BFF9C74E21A4F7F00050014C /* ViewController.h */,
+				BFF9C74F21A4F7F00050014C /* ViewController.m */,
+				BFF9C75121A4F7F00050014C /* Main.storyboard */,
+				BFF9C75421A4F7F20050014C /* Assets.xcassets */,
+				BFF9C75621A4F7F20050014C /* LaunchScreen.storyboard */,
+				BFF9C75921A4F7F20050014C /* Info.plist */,
+				BFF9C75A21A4F7F20050014C /* main.m */,
+			);
+			path = ObenCalculator;
+			sourceTree = "<group>";
+		};
+		BFF9C76321A4F7F20050014C /* ObenCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF9C76421A4F7F20050014C /* ObenCalculatorTests.m */,
+				BFF9C76621A4F7F20050014C /* Info.plist */,
+			);
+			path = ObenCalculatorTests;
+			sourceTree = "<group>";
+		};
+		BFF9C76E21A4F7F20050014C /* ObenCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF9C76F21A4F7F20050014C /* ObenCalculatorUITests.m */,
+				BFF9C77121A4F7F20050014C /* Info.plist */,
+			);
+			path = ObenCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF9C74721A4F7F00050014C /* ObenCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF9C77421A4F7F20050014C /* Build configuration list for PBXNativeTarget "ObenCalculator" */;
+			buildPhases = (
+				BFF9C74421A4F7F00050014C /* Sources */,
+				BFF9C74521A4F7F00050014C /* Frameworks */,
+				BFF9C74621A4F7F00050014C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObenCalculator;
+			productName = ObenCalculator;
+			productReference = BFF9C74821A4F7F00050014C /* ObenCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF9C75F21A4F7F20050014C /* ObenCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF9C77721A4F7F20050014C /* Build configuration list for PBXNativeTarget "ObenCalculatorTests" */;
+			buildPhases = (
+				BFF9C75C21A4F7F20050014C /* Sources */,
+				BFF9C75D21A4F7F20050014C /* Frameworks */,
+				BFF9C75E21A4F7F20050014C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF9C76221A4F7F20050014C /* PBXTargetDependency */,
+			);
+			name = ObenCalculatorTests;
+			productName = ObenCalculatorTests;
+			productReference = BFF9C76021A4F7F20050014C /* ObenCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFF9C76A21A4F7F20050014C /* ObenCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF9C77A21A4F7F20050014C /* Build configuration list for PBXNativeTarget "ObenCalculatorUITests" */;
+			buildPhases = (
+				BFF9C76721A4F7F20050014C /* Sources */,
+				BFF9C76821A4F7F20050014C /* Frameworks */,
+				BFF9C76921A4F7F20050014C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF9C76D21A4F7F20050014C /* PBXTargetDependency */,
+			);
+			name = ObenCalculatorUITests;
+			productName = ObenCalculatorUITests;
+			productReference = BFF9C76B21A4F7F20050014C /* ObenCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF9C74021A4F7F00050014C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = oben;
+				TargetAttributes = {
+					BFF9C74721A4F7F00050014C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BFF9C75F21A4F7F20050014C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BFF9C74721A4F7F00050014C;
+					};
+					BFF9C76A21A4F7F20050014C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BFF9C74721A4F7F00050014C;
+					};
+				};
+			};
+			buildConfigurationList = BFF9C74321A4F7F00050014C /* Build configuration list for PBXProject "ObenCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF9C73F21A4F7F00050014C;
+			productRefGroup = BFF9C74921A4F7F00050014C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF9C74721A4F7F00050014C /* ObenCalculator */,
+				BFF9C75F21A4F7F20050014C /* ObenCalculatorTests */,
+				BFF9C76A21A4F7F20050014C /* ObenCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF9C74621A4F7F00050014C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF9C75821A4F7F20050014C /* LaunchScreen.storyboard in Resources */,
+				BFF9C75521A4F7F20050014C /* Assets.xcassets in Resources */,
+				BFF9C75321A4F7F00050014C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF9C75E21A4F7F20050014C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF9C76921A4F7F20050014C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF9C74421A4F7F00050014C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF9C75021A4F7F00050014C /* ViewController.m in Sources */,
+				BFF9C75B21A4F7F20050014C /* main.m in Sources */,
+				BFF9C74D21A4F7F00050014C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF9C75C21A4F7F20050014C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF9C76521A4F7F20050014C /* ObenCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF9C76721A4F7F20050014C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF9C77021A4F7F20050014C /* ObenCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF9C76221A4F7F20050014C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF9C74721A4F7F00050014C /* ObenCalculator */;
+			targetProxy = BFF9C76121A4F7F20050014C /* PBXContainerItemProxy */;
+		};
+		BFF9C76D21A4F7F20050014C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF9C74721A4F7F00050014C /* ObenCalculator */;
+			targetProxy = BFF9C76C21A4F7F20050014C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF9C75121A4F7F00050014C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF9C75221A4F7F00050014C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFF9C75621A4F7F20050014C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF9C75721A4F7F20050014C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF9C77221A4F7F20050014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFF9C77321A4F7F20050014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF9C77521A4F7F20050014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObenCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oben.me.ObenCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF9C77621A4F7F20050014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObenCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oben.me.ObenCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFF9C77821A4F7F20050014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObenCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oben.me.ObenCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObenCalculator.app/ObenCalculator";
+			};
+			name = Debug;
+		};
+		BFF9C77921A4F7F20050014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObenCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oben.me.ObenCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObenCalculator.app/ObenCalculator";
+			};
+			name = Release;
+		};
+		BFF9C77B21A4F7F20050014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObenCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oben.me.ObenCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObenCalculator;
+			};
+			name = Debug;
+		};
+		BFF9C77C21A4F7F20050014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObenCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oben.me.ObenCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObenCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF9C74321A4F7F00050014C /* Build configuration list for PBXProject "ObenCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF9C77221A4F7F20050014C /* Debug */,
+				BFF9C77321A4F7F20050014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF9C77421A4F7F20050014C /* Build configuration list for PBXNativeTarget "ObenCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF9C77521A4F7F20050014C /* Debug */,
+				BFF9C77621A4F7F20050014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF9C77721A4F7F20050014C /* Build configuration list for PBXNativeTarget "ObenCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF9C77821A4F7F20050014C /* Debug */,
+				BFF9C77921A4F7F20050014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF9C77A21A4F7F20050014C /* Build configuration list for PBXNativeTarget "ObenCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF9C77B21A4F7F20050014C /* Debug */,
+				BFF9C77C21A4F7F20050014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF9C74021A4F7F00050014C /* Project object */;
+}
